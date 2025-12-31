@@ -1,0 +1,21 @@
+{
+  "category": "series",
+  "language": "ar",
+  "version": 1,
+  "providers": [
+    {
+      "id": "arabic-series-egybest",
+      "name": "Arabic Series – EgyBest",
+      "type": "series",
+      "baseUrl": "https://egybest.example",
+      "enabled": false
+    },
+    {
+      "id": "arabic-series-mycima",
+      "name": "Arabic Series – MyCima",
+      "type": "series",
+      "baseUrl": "https://mycima.example",
+      "enabled": false
+    }
+  ]
+}
