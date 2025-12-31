@@ -2,14 +2,26 @@
   "name": "Arabico Zaw",
   "lang": "ar",
   "version": 1,
-  "description": "Official Arabic provider list for Arabico Zaw",
+  "description": "Official Arabic movies and series providers for Arabico Zaw",
   "maintainer": "blackoff23",
-  "sources": [
+
+  "movies": [
     {
-      "id": "arabic-test-source",
-      "name": "Arabic Test Source",
-      "type": "movie",
+      "id": "arabic-movies-sample",
+      "name": "Arabic Movies Sample",
       "language": "ar",
+      "type": "movie",
+      "baseUrl": "https://example.com",
+      "enabled": true
+    }
+  ],
+
+  "series": [
+    {
+      "id": "arabic-series-sample",
+      "name": "Arabic Series Sample",
+      "language": "ar",
+      "type": "series",
       "baseUrl": "https://example.com",
       "enabled": true
     }
