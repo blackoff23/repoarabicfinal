@@ -1,11 +1,15 @@
 {
   "name": "Arabico Zaw Repository",
-  "description": "Arabic providers repository compatible with Kraptor-style builds",
+  "description": "Arabic movies and series providers (Kraptor-style builds)",
   "manifestVersion": 1,
   "pluginLists": [
     {
-      "name": "Arabic Providers",
-      "url": "https://raw.githubusercontent.com/blackoff23/repoarabicfinal/builds/builds/providers/arabic/provider.json"
+      "name": "Arabic Movies",
+      "url": "https://raw.githubusercontent.com/blackoff23/repoarabicfinal/builds/builds/providers/arabic/movies.json"
+    },
+    {
+      "name": "Arabic Series",
+      "url": "https://raw.githubusercontent.com/blackoff23/repoarabicfinal/builds/builds/providers/arabic/series.json"
     }
   ]
 }
