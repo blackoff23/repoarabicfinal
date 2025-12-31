@@ -1,11 +1,11 @@
 {
-  "name": "Arabico ZAW Repository",
-  "description": "Arabic content providers repository",
+  "name": "Arabico ZAW",
+  "description": "Arabic providers (IPTV, Movies, Series, Free Channels)",
   "manifestVersion": 1,
-  "plugins": [
+  "version": "1.0.0",
+  "providers": [
     {
-      "name": "Arabic Providers",
-      "version": 1,
+      "name": "Arabic All-In-One",
       "path": "providers/arabic/provider.json"
     }
   ]
