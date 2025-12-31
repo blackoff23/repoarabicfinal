@@ -1,0 +1,12 @@
+{
+  "name": "Arabico ZAW Repository",
+  "description": "Arabic content providers repository",
+  "manifestVersion": 1,
+  "plugins": [
+    {
+      "name": "Arabic Providers",
+      "version": 1,
+      "path": "providers/arabic/provider.json"
+    }
+  ]
+}
