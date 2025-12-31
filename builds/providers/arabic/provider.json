@@ -2,28 +2,48 @@
   "name": "Arabico Zaw",
   "lang": "ar",
   "version": 1,
-  "description": "Official Arabic movies and series providers for Arabico Zaw",
+  "description": "Arabic movies and series providers (modular & Kraptor-compatible)",
   "maintainer": "blackoff23",
 
   "movies": [
     {
-      "id": "arabic-movies-sample",
-      "name": "Arabic Movies Sample",
+      "id": "arabic-movies-egybest",
+      "name": "Arabic Movies – EgyBest",
       "language": "ar",
       "type": "movie",
-      "baseUrl": "https://example.com",
-      "enabled": true
+      "baseUrl": "https://egybest.example",
+      "enabled": false,
+      "notes": "Movies provider placeholder"
+    },
+    {
+      "id": "arabic-movies-mycima",
+      "name": "Arabic Movies – MyCima",
+      "language": "ar",
+      "type": "movie",
+      "baseUrl": "https://mycima.example",
+      "enabled": false,
+      "notes": "Movies provider placeholder"
     }
   ],
 
   "series": [
     {
-      "id": "arabic-series-sample",
-      "name": "Arabic Series Sample",
+      "id": "arabic-series-egybest",
+      "name": "Arabic Series – EgyBest",
       "language": "ar",
       "type": "series",
-      "baseUrl": "https://example.com",
-      "enabled": true
+      "baseUrl": "https://egybest.example",
+      "enabled": false,
+      "notes": "Series provider placeholder"
+    },
+    {
+      "id": "arabic-series-mycima",
+      "name": "Arabic Series – MyCima",
+      "language": "ar",
+      "type": "series",
+      "baseUrl": "https://mycima.example",
+      "enabled": false,
+      "notes": "Series provider placeholder"
     }
   ]
 }
