@@ -1,0 +1,21 @@
+{
+  "category": "movies",
+  "language": "ar",
+  "version": 1,
+  "providers": [
+    {
+      "id": "arabic-movies-egybest",
+      "name": "Arabic Movies – EgyBest",
+      "type": "movie",
+      "baseUrl": "https://egybest.example",
+      "enabled": false
+    },
+    {
+      "id": "arabic-movies-mycima",
+      "name": "Arabic Movies – MyCima",
+      "type": "movie",
+      "baseUrl": "https://mycima.example",
+      "enabled": false
+    }
+  ]
+}
