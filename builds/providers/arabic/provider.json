@@ -1,0 +1,27 @@
+{
+  "name": "Arabic All-In-One",
+  "lang": "ar",
+  "version": "1.0.0",
+  "sources": [
+    {
+      "type": "iptv",
+      "name": "Arabic IPTV",
+      "url": "https://iptv-org.github.io/iptv/languages/ara.m3u"
+    },
+    {
+      "type": "movies",
+      "name": "Arabic Movies",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/Movies.m3u"
+    },
+    {
+      "type": "series",
+      "name": "Arabic Series",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/Series.m3u"
+    },
+    {
+      "type": "live",
+      "name": "Free Arabic Channels",
+      "url": "https://iptv-org.github.io/iptv/categories/general.m3u"
+    }
+  ]
+}
