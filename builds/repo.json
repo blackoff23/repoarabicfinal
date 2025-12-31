@@ -1,0 +1,12 @@
+{
+  "name": "Arabico ZAW",
+  "description": "Arabic providers (IPTV, Movies, Series, Free Channels)",
+  "manifestVersion": 1,
+  "version": "1.0.0",
+  "providers": [
+    {
+      "name": "Arabic All-In-One",
+      "path": "providers/arabic/provider.json"
+    }
+  ]
+}
