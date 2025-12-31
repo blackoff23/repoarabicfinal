@@ -1,12 +1,11 @@
 {
-  "name": "Arabico ZAW",
-  "description": "Arabic providers (IPTV, Movies, Series, Free Channels)",
+  "name": "Arabico Zaw Repository",
+  "description": "Arabic providers repository compatible with Kraptor-style builds",
   "manifestVersion": 1,
-  "version": "1.0.0",
-  "providers": [
+  "pluginLists": [
     {
-      "name": "Arabic All-In-One",
-      "path": "providers/arabic/provider.json"
+      "name": "Arabic Providers",
+      "url": "https://raw.githubusercontent.com/blackoff23/repoarabicfinal/builds/builds/providers/arabic/provider.json"
     }
   ]
 }
