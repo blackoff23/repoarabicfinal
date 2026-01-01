@@ -1,49 +1,19 @@
 {
-  "name": "Arabico Zaw",
-  "lang": "ar",
-  "version": 1,
-  "description": "Arabic movies and series providers (modular & Kraptor-compatible)",
-  "maintainer": "blackoff23",
-
-  "movies": [
+  "plugins": [
     {
-      "id": "arabic-movies-egybest",
-      "name": "Arabic Movies – EgyBest",
-      "language": "ar",
-      "type": "movie",
-      "baseUrl": "https://egybest.example",
-      "enabled": false,
-      "notes": "Movies provider placeholder"
+      "name": "Wecima",
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/blackoff23/arabico-final/main/cs3/WecimaProvider.cs3"
     },
     {
-      "id": "arabic-movies-mycima",
-      "name": "Arabic Movies – MyCima",
-      "language": "ar",
-      "type": "movie",
-      "baseUrl": "https://mycima.example",
-      "enabled": false,
-      "notes": "Movies provider placeholder"
-    }
-  ],
-
-  "series": [
-    {
-      "id": "arabic-series-egybest",
-      "name": "Arabic Series – EgyBest",
-      "language": "ar",
-      "type": "series",
-      "baseUrl": "https://egybest.example",
-      "enabled": false,
-      "notes": "Series provider placeholder"
+      "name": "Cima4u",
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/blackoff23/arabico-final/main/cs3/Cima4uProvider.cs3"
     },
     {
-      "id": "arabic-series-mycima",
-      "name": "Arabic Series – MyCima",
-      "language": "ar",
-      "type": "series",
-      "baseUrl": "https://mycima.example",
-      "enabled": false,
-      "notes": "Series provider placeholder"
+      "name": "EgyBest",
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/blackoff23/arabico-final/main/cs3/EgyBestProvider.cs3"
     }
   ]
 }
