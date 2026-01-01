@@ -1,15 +1,11 @@
 {
-  "name": "Arabico Zaw Repository",
-  "description": "Arabic movies and series providers (Kraptor-style builds)",
+  "name": "Arabico ZAW Official",
+  "description": "Arabic providers (CloudStream CS3 ready)",
   "manifestVersion": 1,
   "pluginLists": [
     {
-      "name": "Arabic Movies",
-      "url": "https://raw.githubusercontent.com/blackoff23/repoarabicfinal/builds/builds/providers/arabic/movies.json"
-    },
-    {
-      "name": "Arabic Series",
-      "url": "https://raw.githubusercontent.com/blackoff23/repoarabicfinal/builds/builds/providers/arabic/series.json"
+      "name": "Arabic Providers",
+      "url": "https://raw.githubusercontent.com/blackoff23/arabico-final/main/providers-providers.json"
     }
   ]
 }
